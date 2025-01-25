@@ -1,7 +1,10 @@
 package com.devsuperior.app.services;
 
+import org.springframework.stereotype.Service;
+
 import com.devsuperior.app.entities.Order;
 
+@Service
 public class ShippingService {
 
 	public ShippingService() {
