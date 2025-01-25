@@ -9,13 +9,13 @@ import com.devsuperior.app.entities.Order;
 import com.devsuperior.app.services.OrderService;
 
 @SpringBootApplication
-public class Desafio1Application implements CommandLineRunner{
+public class Challenge1Application implements CommandLineRunner{
 	
 	@Autowired
 	private OrderService orderService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(Desafio1Application.class, args);
+		SpringApplication.run(Challenge1Application.class, args);
 	}
 
 	@Override
